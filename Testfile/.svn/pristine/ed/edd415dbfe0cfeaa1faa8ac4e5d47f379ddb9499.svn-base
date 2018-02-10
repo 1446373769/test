@@ -1,0 +1,40 @@
+package phone;
+
+public class Initail {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Telphone tel1= new cellPhone();
+		tel1.call();
+		tel1.Message();
+		Telphone tel2= new smartPhone();
+		tel2.call();
+		tel2.Message();
+		
+		IPlayGame ip1=new smartPhone();
+		ip1.playGame();
+		IPlayGame ip2=new Psp();
+		ip2.playGame();
+		//匿名内部类两种形式
+		IPlayGame ip3=new IPlayGame() {
+			
+			@Override
+			public void playGame() {
+				// TODO Auto-generated method stub
+				System.out.println("使用匿名内部类的方式实现接口");
+			}
+		};
+		ip3.playGame();
+		
+		new IPlayGame(){
+
+			@Override
+			public void playGame() {
+				// TODO Auto-generated method stub
+				System.out.println("使用匿名内部类的方式实现接口方式2");
+			}
+			
+		}.playGame();
+	}
+
+}
