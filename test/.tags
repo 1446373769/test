@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^<html>$/;"	function	line:2
+head	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^  <head>$/;"	function	line:3
+meta	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^    <title>test<\/title>$/;"	function	line:5
+script	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^    <script src="jquery-3.0.0.js"><\/script>$/;"	function	line:6
+body	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^  <body>$/;"	function	line:8
+p	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^      <p>$/;"	function	line:9
+label	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^        <label for="name">Name:$/;"	function	line:10
+input	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^          <input type="text" name="">$/;"	function	line:11
+p	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^      <p>$/;"	function	line:14
+label	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^        <label for="Password">Password:$/;"	function	line:15
+input	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^          <input type="text" name="">$/;"	function	line:16
+input	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^      <input type="button"  value="鎻愪氦" onclick="addclick()"\/>$/;"	function	line:19
+script	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^    <script>$/;"	function	line:20
+addclick	F:\1我的文件\1前端文件\代码\练习文档\html\test1.html	/^      function addclick() {$/;"	function	line:21
+html	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^<html>$/;"	function	line:2
+head	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^<head>$/;"	function	line:3
+title	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^	<title><\/title>$/;"	function	line:4
+style	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^	<style type="text\/css" media="screen">$/;"	function	line:5
+body	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^<body>$/;"	function	line:17
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^	<div class="top">$/;"	function	line:18
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^		<div class="head"><\/div>$/;"	function	line:19
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^	<div class="main">$/;"	function	line:21
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^		<div class="left"><\/div>$/;"	function	line:22
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^		<div class="right">$/;"	function	line:23
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^			<div class="subl"><\/div>$/;"	function	line:24
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^			<div class="subr"><\/div>$/;"	function	line:25
+div	F:\1我的文件\1前端文件\代码\练习文档\html\一列布局.html	/^	<div class="foot"><\/div>$/;"	function	line:28
+html	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^<html>$/;"	function	line:2
+head	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^  <head>$/;"	function	line:3
+meta	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^    <title>绗竴涓狫avaScript<\/title>$/;"	function	line:5
+style	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^    <style media="screen">$/;"	function	line:6
+script	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^    <script type="text\/javascript">$/;"	function	line:14
+toGreen	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^      function toGreen() {$/;"	function	line:15
+toRed	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^      function toRed() {$/;"	function	line:21
+body	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^  <body>$/;"	function	line:29
+div	F:\1我的文件\1前端文件\代码\练习文档\html\第一个javascript.html	/^    <div id="div1" onmouseover="toGreen()"onmouseout="toRed()">$/;"	function	line:30
+addLoadEvent	F:\1我的文件\1前端文件\代码\练习文档\script\addLoadEvent.js	/^function addLoadEvent(func)\/\/onload浜嬩欢鍔犺浇鍑芥暟$/;"	function	line:1
+onload	F:\1我的文件\1前端文件\代码\练习文档\script\addLoadEvent.js	/^		window.onload=function()$/;"	function	line:10
+window.onload	F:\1我的文件\1前端文件\代码\练习文档\script\addLoadEvent.js	/^		window.onload=function()$/;"	function	line:10
+addLoadEvent	F:\1我的文件\1前端文件\代码\练习文档\script\addLoadEvent.js	/^function addLoadEvent(func)\/\/onload浜嬩欢鍔犺浇鍑芥暟$/;"	function	line:1
+inserAfter	F:\1我的文件\1前端文件\代码\练习文档\script\inserAfter.js	/^function inserAfter(newElement,targetElement)\/\/灏嗕竴涓柊鍏冪礌鎻掑叆鍒扮幇鏈夊厓绱犵殑鍚庨潰$/;"	function	line:1
+inserAfter	F:\1我的文件\1前端文件\代码\练习文档\script\inserAfter.js	/^function inserAfter(newElement,targetElement)\/\/灏嗕竴涓柊鍏冪礌鎻掑叆鍒扮幇鏈夊厓绱犵殑鍚庨潰$/;"	function	line:1
+moveMessage	F:\1我的文件\1前端文件\代码\练习文档\script\moveElement.js	/^function moveMessage(){$/;"	function	line:1
+moveMessage	F:\1我的文件\1前端文件\代码\练习文档\script\moveElement.js	/^function moveMessage(){$/;"	function	line:1
+showPic	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function showPic(whichpic){$/;"	function	line:1
+showPic	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function showPic(whichpic){$/;"	function	line:1
+countBodyChildren	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function countBodyChildren(){$/;"	function	line:14
+countBodyChildren	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function countBodyChildren(){$/;"	function	line:14
+preparegegallery	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function preparegegallery()$/;"	function	line:18
+links	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^		links[i].onclick=function(){$/;"	function	line:36
+preparegegallery	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function preparegegallery()$/;"	function	line:18
+addLoadEvent	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function addLoadEvent(func)\/\/onload浜嬩欢鍔犺浇鍑芥暟$/;"	function	line:43
+onload	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^		window.onload=function()$/;"	function	line:52
+window.onload	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^		window.onload=function()$/;"	function	line:52
+addLoadEvent	F:\1我的文件\1前端文件\代码\练习文档\script\showPic.js	/^function addLoadEvent(func)\/\/onload浜嬩欢鍔犺浇鍑芥暟$/;"	function	line:43
