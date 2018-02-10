@@ -1,0 +1,68 @@
+package src.testDome.Phone;
+
+public class Telphone {
+	/**
+	 * @return the screen
+	 */
+	public float getScreen() {
+		return screen;
+	}
+	/**
+	 * @param screen the screen to set
+	 */
+	public void setScreen(float screen) {
+		this.screen = screen;
+	}
+	/**
+	 * @return the cpu
+	 */
+	public float getCpu() {
+		return cpu;
+	}
+	/**
+	 * @param cpu the cpu to set
+	 */
+	public void setCpu(float cpu) {
+		this.cpu = cpu;
+	}
+	/**
+	 * @return the mem
+	 */
+	public float getMem() {
+		return mem;
+	}
+	/**
+	 * @param mem the mem to set
+	 */
+	public void setMem(float mem) {
+		this.mem = mem;
+	}
+	//声明属性(成员变量)
+	private float screen;
+	private float cpu;
+	private float mem;
+	
+	//声明方法
+	void call(){
+		System.out.println("Telphone有打电话功能");
+	} 
+	void sendMessage(){
+		System.out.println("screen:"+screen+"cpu:"+cpu+"mem"+mem+"Telphone有发短信功能");
+	}
+	//无参构造方法
+	public Telphone() {
+		System.out.println("执行无参构造方法");
+	}
+	//有参构造方法
+	public Telphone(float newScreen,float newCpu,float newMem) {
+		if(newScreen<3.5){
+			System.out.println("您输入的参数有问题，自动赋值3.5");
+			screen=3.5f;
+		}else{
+			screen=newScreen;
+		}
+		cpu=newCpu;
+		mem=newMem;
+		System.out.println("执行有参构造方法");
+	}
+}

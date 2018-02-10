@@ -1,0 +1,12 @@
+package src.testDome.Animal;
+
+public class Animal {
+	public int age=10;
+	public void eat(){
+		System.out.println("动物具有吃东西的能力");
+	}
+	public Animal(){
+		System.out.println("动物的构造方法");
+		age=20;
+	}
+}
