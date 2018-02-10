@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>文档碎片</title>
+<script>
+window.onload=function()
+{
+	var oUl=document.getElementById('ul1');
+	var oFrap=document.createDocumentFragment();
+
+	for(var i=1;i<10000;i++)
+	{
+		var oLi=document.createElement('li');
+
+		oFrap.appendChild(oLi);
+	}
+	oUl.appendChild(oFrap);
+};
+</script>
+</head>
+<body>
+<ul id="ul1"></ul>
+</body>
+</html>

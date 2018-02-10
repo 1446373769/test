@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>实验报告管理系统</title>
+<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css" media="screen">
+  body{padding: 50px 0;width:100%}
+  .person{height: 500px;margin:0 250px;background:rgb(233, 224, 245) ;overflow: hidden;}
+  .headinfo{margin:0 45%;}
+  .foot1{margin:0 30%;display:inline;}
+  .foot2{margin:0 20%;display:inline;}
+  .inform1{width:20%;margin:20px 5% 0px 25%;float: left;}
+  .inform2{width:20%;margin:0 25% 0 5%;float: left;}
+  strong{font-size: 20px;}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<a class="navbar-brand" href="#">武汉理工大学实验报告管理系统</a>
+    	<ul class="nav navbar-nav">
+				<li><a href="实验报告系统.html">首页</a></li>
+				<li><a href="uncommitted.html">待提交</a></li>
+				<li><a href="committed.html">已提交</a></li>
+				<li><a href="allclass.html">所有实验</a></li>
+				<li class="active"><a href="information.html">个人信息</a></li>
+        </li>
+       </ul>
+    </div>
+  </div>
+</nav>
+<hr class="feature-divider">
+  <div class="person">
+    <div class="headinfo"><strong>个人信息</strong></div>
+    <div class="inform1">
+      <br/>
+      <div class="input-group">学号:<input type="text" class="form-control"value="0121410870624"name="id"></div>
+      <br/>
+      <div class="input-group">姓名:<input type="text" class="form-control"value="周嘉庆"name="name"></div>
+      <br/>
+      <div class="input-group">学校:<input type="text" class="form-control"value="武汉理工大学"name="college"></div>
+      <br/>
+    </div>
+      <br/>
+    <div class="inform2">
+      <br/>
+      <div class="input-group">专业:<input type="text" class="form-control"value="计算机"name="major"></div>
+      <br/>
+      <div class="input-group">性别:<input type="text" class="form-control"value="男"name="sex"></div>
+      <br/>
+      <div class="input-group">班级 :<input type="text" class="form-control"value="计算机1403"name="locotion"></div>
+      <br />
+    </div>
+    <div class="foot1"><a href="repassword.html"><button type="button" name="button"class="btn btn-warning">修改密码</button></a>
+    <div class="foot2"><button type="button" name="button"class="btn btn-warning">修改信息</button>
+
+    </div>
+  </div>
+</body>
+</html>

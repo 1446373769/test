@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .wrap {
+            position: relative;
+            width: 200px;
+            left: 50px;
+            top: 50px;
+        }
+
+        ul {
+            padding: 15px 0;
+            margin: 0;
+            list-style: none;
+            background: #6c6669;
+            color: #ffffff;
+            border-right-width: 0;
+        }
+
+        li {
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            padding-left: 12px;
+            cursor: pointer;
+            font-size: 14px;
+            position: relative;
+        }
+
+        li.active {
+            background: #999395;
+        }
+
+        li span:hover {
+            color: #cB1623;
+        }
+
+        .none {
+            display: none;
+        }
+
+        #sub {
+            width: 600px;
+            position: absolute;
+            border: 1px solid #f7f7f7;
+            background: #f7f7f7;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+            left: 200px;
+            top: 0;
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        .sub_content a {
+            font-size: 12px;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .sub_content dd a {
+            border-left: 1px solid #e0e0e0;
+            padding: 0 10px;
+            margin: 4px 0;
+        }
+
+        .sub_content dl {
+            overflow: hidden;
+        }
+
+        .sub_content dt {
+            float: left;
+            width: 70px;
+            font-weight: bold;
+            clear: left;
+            position: relative;
+        }
+
+        .sub_content dd {
+            float: left;
+            margin-left: 5px;
+            border-top: 1px solid #eee;
+            margin-bottom: 5px;
+        }
+
+        .sub_content dt i {
+            width: 4px;
+            height: 14px;
+            font: 400 9px/14px consolas;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap" id="test">
+        <ul>
+            <li data-id="a">
+                <span>家用电器</span>
+            </li>
+            <li data-id="b">
+                <span>手机/运营商/数码相机</span>
+            </li>
+            <li data-id="c">
+                <span>电脑办公</span>
+            </li>
+            <li data-id="d">
+                <span>女装/男装/童装</span>
+            </li>
+            <li data-id="e">
+                <span>运动/户外/钟表</span>
+            </li>
+            <li data-id="f">
+                <span>汽车用品</span>
+            </li>
+            <li data-id="g">
+                <span>玩具乐器</span>
+            </li>
+            <li data-id="h">
+                <span>食品/饮料</span>
+            </li>
+            <li data-id="i">
+                <span>医药保健</span>
+            </li>
+            <li data-id="j">
+                <span>学习用品</span>
+            </li>
+            <li data-id="k">
+                <span>考试</span>
+            </li>
+        </ul>
+        <div id="sub" class="none">
+            <div id="a" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">电视
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">合资品牌</a>
+                        <a href="#">国产品牌</a>
+                        <a href="#">互联网品牌</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">微波炉
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">合资品牌</a>
+                        <a href="#">国产品牌</a>
+                        <a href="#">互联网品牌</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">烧水壶
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">合资品牌</a>
+                        <a href="#">国产品牌</a>
+                        <a href="#">互联网品牌</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">风扇
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">合资品牌</a>
+                        <a href="#">国产品牌</a>
+                        <a href="#">互联网品牌</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="b" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">手机
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">小米手机</a>
+                        <a href="#">华为手机</a>
+                        <a href="#">一加手机</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">运营商
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">中国移动</a>
+                        <a href="#">中国联通</a>
+                        <a href="#">中国电信</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">数码相机
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">索尼相机</a>
+                        <a href="#">佳康相机</a>
+                        <a href="#">互联网相机</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">电视
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">合资品牌</a>
+                        <a href="#">国产品牌</a>
+                        <a href="#">互联网品牌</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="c" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">电脑
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">联想电脑</a>
+                        <a href="#">惠普电脑</a>
+                        <a href="#">外星人</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">鼠标
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">雷蛇鼠标</a>
+                        <a href="#">罗技鼠标</a>
+                        <a href="#">杂牌鼠标</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">键盘
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">青轴键盘</a>
+                        <a href="#">茶轴键盘</a>
+                        <a href="#">黑轴键盘</a>
+                        <a href="#">红轴键盘</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">内存条
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">金士顿</a>
+                        <a href="#">三星</a>
+                        <a href="#">联想</a>
+                        <a href="#">希捷</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="d" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">女装
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">裙子</a>
+                        <a href="#">礼服</a>
+                        <a href="#">高跟鞋</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">男装
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">夹克</a>
+                        <a href="#">裤子</a>
+                        <a href="#">板鞋</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">童装
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">衣服</a>
+                        <a href="#">裤子</a>
+                        <a href="#">鞋子</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="e" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">运动
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">跑步耳机</a>
+                        <a href="#">健身器</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">户外
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">跑步</a>
+                        <a href="#">散步</a>
+                        <a href="#">锻炼</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">钟表
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">圆表</a>
+                        <a href="#">怀表</a>
+                        <a href="#">手表</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="f" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">汽车
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">小汽车</a>
+                        <a href="#">皮卡</a>
+                        <a href="#">火车</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">汽车内饰
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">汽车挂饰</a>
+                        <a href="#">汽车摆件</a>
+                        <a href="#">汽车零件</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="g" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">玩具乐器
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">钢琴</a>
+                        <a href="#">小提琴</a>
+                        <a href="#">小号</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="h" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">食品
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">可乐</a>
+                        <a href="#">鸡腿</a>
+                        <a href="#">露露</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="i" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">医药保健
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">阿莫西林</a>
+                        <a href="#">感冒药</a>
+                        <a href="#">消炎药</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="j" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">学习用品
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">铅笔</a>
+                        <a href="#">钢笔</a>
+                        <a href="#">笔记本</a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="k" class="sub_content none">
+                <dl>
+                    <dt>
+                        <a href="#">考试
+                            <i>&gt;</i>
+                        </a>
+                    </dt>
+                    <dd>
+                        <a href="#">2B铅笔</a>
+                        <a href="#">考试试卷</a>
+                        <a href="#">考试试题</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../js/navmath.js"></script>
+    <script src="../js/navchange.js"></script>
+</body>
+
+</html>

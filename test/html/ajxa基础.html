@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajax基础</title>
+	<script type="text/javascript">
+	window.onload=function()
+	{
+		var obtn=document.getElementById('btn1');
+
+		obtn.onclick=function()
+		{
+			var oAjax=null;
+			if(window.XMLHttpRequest)//特别注意
+			{
+				oAjax = new XMLHttpRequest();
+			}
+			else
+			{
+				oAjax = newActiveXObject("Microsoft.XMLHTTP");
+			}
+			oAjax.open('GET','a.txt',true);
+
+			oAjax.send();
+
+			oAjax.onreadystatechange=function()
+			{
+				if(oAjax.readyState==4)
+				{
+					if(oAjax.status==200)
+					{
+						window.alert('success:'+oAjax.responseText);
+					}
+					else
+					{
+						window.alert('fail');
+					}
+				}
+			};
+		};
+	};
+	</script>
+</head>
+<body>
+	<input type="button" id="btn1" value="读取数据"/>
+</body>
+</html>
